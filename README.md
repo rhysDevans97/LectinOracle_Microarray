@@ -1,5 +1,8 @@
 # LectinOracle
 
+[https://colab.research.google.com/drive/1Tk67xxra3W1fc4kJDQ5TLlpWUQaBEgGw](LectinOracle_Microarray.ipynb)
+Input amino acid sequence and specify to either use ESM1b modelling or flex; the former requires a high RAM GPU. The notebook also requires connecting to your GDrive and using a hosted GPU runtime.
+
 Contains code and all necessary files to train and use LectinOracle models described in Lundstrøm et al., 2021.
 
 LectinOracle is a deep learning-based model to predict the interaction of proteins and complex carbohydrates (glycans) based on their sequences, making it potent and easily generalizable. We used a pre-trained transformer-based architecture for analyzing the protein part and a graph convolutional neural network for analyzing the glycan sequences.
